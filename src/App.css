@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input:-webkit-autofill,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:hover {
+    -webkit-box-shadow: 0 0 0 1000px white inset !important; /* Override Chrome's default style */
+    box-shadow: 0 0 0 1000px white inset !important; /* Override Chrome's default style */
+    /* Set your desired background and text color */
+    background-color: your-background-color !important;
+    color: your-text-color !important;
+}
